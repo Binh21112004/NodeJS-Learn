@@ -2,9 +2,21 @@
   "name": "nodejs-pro-hoidanit",
   "version": "1.0.0",
   "description": "nodejs pro hoidanit",
-  "main": "app.js",
+  "main": "dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "dev": "nodemon"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "ext": "ts",
+    "ignore": [
+      "node_modules"
+    ],
+    "exec": "ts-node ./src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -25,5 +37,12 @@
   "homepage": "https://github.com/Binh21112004/NodeJS-Learn#readme",
   "dependencies": {
     "express": "5.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.0",
+    "@types/node": "22.10.7",
+    "nodemon": "3.1.9",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3"
   }
 }
