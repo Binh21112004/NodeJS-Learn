@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Binh21112004/NodeJS-Learn/issues"
   },
-  "homepage": "https://github.com/Binh21112004/NodeJS-Learn#readme"
+  "homepage": "https://github.com/Binh21112004/NodeJS-Learn#readme",
+  "dependencies": {
+    "express": "5.0.1"
+  }
 }
