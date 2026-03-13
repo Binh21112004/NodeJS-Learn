@@ -36,12 +36,17 @@
   },
   "homepage": "https://github.com/Binh21112004/NodeJS-Learn#readme",
   "dependencies": {
+    "dotenv": "16.4.7",
     "express": "5.0.1"
   },
   "devDependencies": {
+    "@types/ejs": "3.1.5",
     "@types/express": "5.0.0",
     "@types/node": "22.10.7",
+    "ejs": "3.1.10",
+    "i": "0.3.7",
     "nodemon": "3.1.9",
+    "npm": "11.11.1",
     "ts-node": "10.9.2",
     "typescript": "5.7.3"
   }
